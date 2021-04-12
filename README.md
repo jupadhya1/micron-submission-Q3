@@ -1,1 +1,2 @@
-# micron-submission-Q3
+The algorithm consists of three parts: the first is the table detection and cell recognition with Open CV, the second the thorough allocation of the cells to the proper row and column and the third part is the extraction of each allocated cell through Optical Character Recognition (OCR) with pytesseract.
+As most table recognition algorithms, this one is based on the line structure of the table. Clear and detectable lines are necessary for the proper identification of cells. T
